@@ -1,4 +1,4 @@
-# Creez une image Almalinux avec supervisord et sshd
+# Create image and check
 ```shell
 docker build -t puppet-agent-almalinux .   # build the image
 docker run -d --name alma --add-host puppet:<puppetmaster_ip> puppet-agent-almalinux  # container alma created
